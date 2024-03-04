@@ -71,7 +71,7 @@ x-airflow-common:
 
     # CONFIGURACAO DE EMAIL:
     AIRFLOW__SMTP__SMTP_HOST: smtp.gmail.com
-    AIRFLOW__SMTP__SMTP_USER: adrianolima095@gmail.com
+    AIRFLOW__SMTP__SMTP_USER: xxxx.xxxx@gmail.com
     AIRFLOW__SMTP__SMTP_PASSWORD: xxxx xxxxx xxxx xxxx
     AIRFLOW__SMTP__SMTP_PORT: 587
     AIRFLOW__SMTP__SMTP_FROM: Airflow   # Remetente

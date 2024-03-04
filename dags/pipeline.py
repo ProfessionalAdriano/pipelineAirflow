@@ -18,7 +18,7 @@ from airflow.sensors.filesystem import FileSensor
 # Parametros padrao que se aplica a todas as Dags:
 default_args = {
     'depends_on_past' : False, # 
-    'email': ['adrianolima095@gmail.com'],    # Onde será enviado em caso de falha
+    'email': ['xxxx.xxx@gmail.com'],          # Onde será enviado em caso de falha
     'email_on_failure': True,                 # Envia um e-mail em caso de falhas   
     'email_on_retry': False,                  # Email um e-mail caso a tarefa seja executada automaticamente
     'retries': 1,                             # Define a qtde de tentativas
@@ -163,7 +163,7 @@ task_generates_data = PythonOperator(task_id='task_generates_data', python_calla
 
 send_email_alert_task = EmailOperator(
                                 task_id='send_email_alert_task',
-                                to='adrianolima095@gmail.com',
+                                to='xxxx.xxxxx@gmail.com',
                                 subject='Pipeline Airlfow',
                                 html_content = '''<h3>Alerta de Temperatrura. </h3>
                                 <p> Dag: Turbina de Vento </p>
@@ -173,7 +173,7 @@ send_email_alert_task = EmailOperator(
 
 send_email_normal_task = EmailOperator(
                                 task_id='send_email_normal_task',
-                                to='adrianolima095@gmail.com',
+                                to='xxxx.xxxxx.com',
                                 subject='Pipeline Airlfow',
                                 html_content = '''<h3>Temperaturas Normais. </h3>
                                 <p> Dag: Turbina de Vento </p>
