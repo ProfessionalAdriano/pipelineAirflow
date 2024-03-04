@@ -1,0 +1,20 @@
+[2024-03-04T17:37:13.910+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.task_generates_data manual__2024-03-04T17:37:12.716458+00:00 [queued]>
+[2024-03-04T17:37:13.915+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.task_generates_data manual__2024-03-04T17:37:12.716458+00:00 [queued]>
+[2024-03-04T17:37:13.915+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-04T17:37:13.915+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2024-03-04T17:37:13.915+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-04T17:37:13.923+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): task_generates_data> on 2024-03-04 17:37:12.716458+00:00
+[2024-03-04T17:37:13.927+0000] {standard_task_runner.py:55} INFO - Started process 169 to run task
+[2024-03-04T17:37:13.929+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'gera_dados_turbina', 'task_generates_data', 'manual__2024-03-04T17:37:12.716458+00:00', '--job-id', '3356', '--raw', '--subdir', 'DAGS_FOLDER/pipeline.py', '--cfg-path', '/tmp/tmp0izw132j']
+[2024-03-04T17:37:13.930+0000] {standard_task_runner.py:83} INFO - Job 3356: Subtask task_generates_data
+[2024-03-04T17:37:13.964+0000] {task_command.py:388} INFO - Running <TaskInstance: gera_dados_turbina.task_generates_data manual__2024-03-04T17:37:12.716458+00:00 [running]> on host f0c01616532b
+[2024-03-04T17:37:14.003+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=adrianolima095@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gera_dados_turbina
+AIRFLOW_CTX_TASK_ID=task_generates_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-04T17:37:12.716458+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-04T17:37:12.716458+00:00

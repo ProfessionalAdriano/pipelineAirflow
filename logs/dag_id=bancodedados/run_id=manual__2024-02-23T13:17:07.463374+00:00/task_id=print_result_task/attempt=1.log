@@ -1,0 +1,29 @@
+[2024-02-23T13:17:11.124+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.print_result_task manual__2024-02-23T13:17:07.463374+00:00 [queued]>
+[2024-02-23T13:17:11.129+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.print_result_task manual__2024-02-23T13:17:07.463374+00:00 [queued]>
+[2024-02-23T13:17:11.130+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-23T13:17:11.130+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-23T13:17:11.130+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-23T13:17:11.138+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): print_result_task> on 2024-02-23 13:17:07.463374+00:00
+[2024-02-23T13:17:11.141+0000] {standard_task_runner.py:55} INFO - Started process 142 to run task
+[2024-02-23T13:17:11.143+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bancodedados', 'print_result_task', 'manual__2024-02-23T13:17:07.463374+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/bancodedados.py', '--cfg-path', '/tmp/tmpksl4i9sk']
+[2024-02-23T13:17:11.144+0000] {standard_task_runner.py:83} INFO - Job 64: Subtask print_result_task
+[2024-02-23T13:17:11.177+0000] {task_command.py:388} INFO - Running <TaskInstance: bancodedados.print_result_task manual__2024-02-23T13:17:07.463374+00:00 [running]> on host 3a5113300af0
+[2024-02-23T13:17:11.215+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bancodedados
+AIRFLOW_CTX_TASK_ID=print_result_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-23T13:17:07.463374+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-23T13:17:07.463374+00:00
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - Resultado da Consulta: 
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - [1]
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - [1]
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - [1]
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - [1]
+[2024-02-23T13:17:11.222+0000] {logging_mixin.py:137} INFO - [1]
+[2024-02-23T13:17:11.222+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-02-23T13:17:11.227+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=bancodedados, task_id=print_result_task, execution_date=20240223T131707, start_date=20240223T131711, end_date=20240223T131711
+[2024-02-23T13:17:11.275+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-02-23T13:17:11.289+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

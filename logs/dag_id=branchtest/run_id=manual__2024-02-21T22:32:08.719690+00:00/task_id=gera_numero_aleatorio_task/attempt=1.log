@@ -1,0 +1,23 @@
+[2024-02-21T22:32:09.477+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: branchtest.gera_numero_aleatorio_task manual__2024-02-21T22:32:08.719690+00:00 [queued]>
+[2024-02-21T22:32:09.483+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: branchtest.gera_numero_aleatorio_task manual__2024-02-21T22:32:08.719690+00:00 [queued]>
+[2024-02-21T22:32:09.483+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-21T22:32:09.483+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-21T22:32:09.483+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-21T22:32:09.492+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): gera_numero_aleatorio_task> on 2024-02-21 22:32:08.719690+00:00
+[2024-02-21T22:32:09.495+0000] {standard_task_runner.py:55} INFO - Started process 214 to run task
+[2024-02-21T22:32:09.497+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'branchtest', 'gera_numero_aleatorio_task', 'manual__2024-02-21T22:32:08.719690+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/branchs.py', '--cfg-path', '/tmp/tmpr9bba04c']
+[2024-02-21T22:32:09.497+0000] {standard_task_runner.py:83} INFO - Job 63: Subtask gera_numero_aleatorio_task
+[2024-02-21T22:32:09.535+0000] {task_command.py:388} INFO - Running <TaskInstance: branchtest.gera_numero_aleatorio_task manual__2024-02-21T22:32:08.719690+00:00 [running]> on host 8f455f81f511
+[2024-02-21T22:32:09.576+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=branchtest
+AIRFLOW_CTX_TASK_ID=gera_numero_aleatorio_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-21T22:32:08.719690+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-21T22:32:08.719690+00:00
+[2024-02-21T22:32:09.576+0000] {python.py:177} INFO - Done. Returned value was: 72
+[2024-02-21T22:32:09.591+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=branchtest, task_id=gera_numero_aleatorio_task, execution_date=20240221T223208, start_date=20240221T223209, end_date=20240221T223209
+[2024-02-21T22:32:09.628+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-02-21T22:32:09.647+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

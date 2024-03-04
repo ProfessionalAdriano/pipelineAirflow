@@ -1,0 +1,608 @@
+[2024-02-28T20:45:55.961+0000] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:45:55.962+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:45:55.962+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:55.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:45:56.027+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:56.026+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:45:56.027+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:45:56.034+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.076 seconds
+[2024-02-28T20:46:01.158+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:01.158+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:01.158+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:01.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:01.188+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:01.188+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:01.188+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:01.194+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:46:07.046+0000] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:07.046+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:07.046+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:07.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:07.076+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:07.076+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:07.077+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:07.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:46:12.886+0000] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:12.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:12.888+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:12.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:12.917+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:12.917+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:12.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:12.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.048 seconds
+[2024-02-28T20:46:18.709+0000] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:18.711+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:18.711+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:18.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:18.745+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:18.744+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:18.745+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:18.752+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.045 seconds
+[2024-02-28T20:46:24.581+0000] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:24.582+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:24.583+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:24.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:24.611+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:24.610+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:24.611+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:24.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:46:30.480+0000] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:30.482+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:30.482+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:30.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:30.509+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:30.508+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:30.509+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:30.515+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.037 seconds
+[2024-02-28T20:46:35.532+0000] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:35.532+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:35.533+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:35.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:35.561+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:35.560+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:35.561+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:35.567+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.037 seconds
+[2024-02-28T20:46:40.590+0000] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:40.590+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:40.591+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:40.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:40.619+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:40.618+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:40.619+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:40.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.037 seconds
+[2024-02-28T20:46:45.653+0000] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:45.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:45.654+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:45.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:45.689+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:45.688+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:45.689+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:45.700+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.049 seconds
+[2024-02-28T20:46:50.723+0000] {processor.py:153} INFO - Started process (PID=473) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:50.724+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:50.724+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:50.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:50.752+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:50.752+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:50.753+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:50.759+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.037 seconds
+[2024-02-28T20:46:55.786+0000] {processor.py:153} INFO - Started process (PID=500) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:55.787+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:46:55.787+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:55.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:55.815+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:55.815+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:46:55.816+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:46:55.822+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:47:01.689+0000] {processor.py:153} INFO - Started process (PID=554) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:01.690+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:01.690+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:01.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:01.719+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:01.719+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:01.720+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:01.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds
+[2024-02-28T20:47:06.764+0000] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:06.765+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:06.765+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.765+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:06.796+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.795+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:06.796+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:06.804+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.041 seconds
+[2024-02-28T20:47:11.820+0000] {processor.py:153} INFO - Started process (PID=639) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:11.820+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:11.821+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:11.848+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.847+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:11.848+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:11.854+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.036 seconds
+[2024-02-28T20:47:16.977+0000] {processor.py:153} INFO - Started process (PID=644) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:16.978+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:16.979+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:16.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:17.006+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:17.006+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:17.007+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:17.012+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:47:22.835+0000] {processor.py:153} INFO - Started process (PID=702) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:22.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:22.836+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:22.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:22.864+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:22.863+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:22.865+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:22.871+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:47:28.679+0000] {processor.py:153} INFO - Started process (PID=728) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:28.681+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:28.681+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:28.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:28.710+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:28.709+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:28.710+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:28.716+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:47:34.566+0000] {processor.py:153} INFO - Started process (PID=786) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:34.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:34.569+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:34.598+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.597+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:34.598+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:34.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds
+[2024-02-28T20:47:40.435+0000] {processor.py:153} INFO - Started process (PID=812) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:40.437+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:40.437+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:40.466+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.465+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:40.466+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:40.472+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:47:46.325+0000] {processor.py:153} INFO - Started process (PID=870) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:46.326+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:46.326+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:46.354+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.354+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:46.355+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:46.361+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:47:52.105+0000] {processor.py:153} INFO - Started process (PID=896) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:52.107+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:52.108+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:52.152+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.151+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:52.152+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:52.159+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.057 seconds
+[2024-02-28T20:47:58.015+0000] {processor.py:153} INFO - Started process (PID=954) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:58.017+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:47:58.017+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:58.047+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.046+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:47:58.047+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:47:58.053+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds
+[2024-02-28T20:48:03.827+0000] {processor.py:153} INFO - Started process (PID=980) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:03.827+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:03.828+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:03.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:03.856+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:03.856+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:03.856+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:03.863+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:48:09.637+0000] {processor.py:153} INFO - Started process (PID=1038) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:09.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:09.639+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:09.667+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.666+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:09.667+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:09.673+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:48:15.451+0000] {processor.py:153} INFO - Started process (PID=1064) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:15.452+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:15.453+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:15.482+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.482+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:15.483+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:15.489+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.041 seconds
+[2024-02-28T20:48:21.338+0000] {processor.py:153} INFO - Started process (PID=1122) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:21.339+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:21.340+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:21.367+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.367+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:21.367+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:21.374+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:48:27.212+0000] {processor.py:153} INFO - Started process (PID=1148) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:27.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:27.213+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:27.241+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.241+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:27.241+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:27.247+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:48:33.099+0000] {processor.py:153} INFO - Started process (PID=1206) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:33.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:33.101+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:33.130+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.130+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:33.131+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:33.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds
+[2024-02-28T20:48:38.899+0000] {processor.py:153} INFO - Started process (PID=1232) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:38.900+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:38.901+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:38.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:38.929+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:38.928+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:38.929+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:38.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:48:44.706+0000] {processor.py:153} INFO - Started process (PID=1290) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:44.707+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:44.708+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:44.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:44.736+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:44.735+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:44.736+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:44.742+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.038 seconds
+[2024-02-28T20:48:50.584+0000] {processor.py:153} INFO - Started process (PID=1316) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:50.586+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:50.586+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:50.615+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.614+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:50.615+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:50.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds
+[2024-02-28T20:48:56.457+0000] {processor.py:153} INFO - Started process (PID=1374) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:56.459+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:48:56.459+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:56.488+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.488+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:48:56.488+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:48:56.494+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:49:02.336+0000] {processor.py:153} INFO - Started process (PID=1400) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:02.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:49:02.337+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:02.366+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.365+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:49:02.366+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:02.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.037 seconds
+[2024-02-28T20:49:08.273+0000] {processor.py:153} INFO - Started process (PID=1458) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:08.273+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:49:08.273+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:08.303+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.302+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:49:08.303+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:08.309+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:49:14.158+0000] {processor.py:153} INFO - Started process (PID=1484) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:14.159+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:49:14.160+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:14.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:14.191+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:14.190+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:49:14.191+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:14.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.041 seconds
+[2024-02-28T20:49:20.198+0000] {processor.py:153} INFO - Started process (PID=1541) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:20.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:49:20.199+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:20.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:20.229+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:20.228+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:49:20.229+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:20.235+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.039 seconds
+[2024-02-28T20:49:26.077+0000] {processor.py:153} INFO - Started process (PID=1566) to work on /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:26.078+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/windturbine.py for tasks to queue
+[2024-02-28T20:49:26.078+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:26.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:26.108+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:26.107+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/windturbine.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/windturbine.py", line 46, in <module>
+    filepath=Variable.get('path_file'),
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable path_file does not exist'
+[2024-02-28T20:49:26.108+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/windturbine.py
+[2024-02-28T20:49:26.115+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/windturbine.py took 0.040 seconds

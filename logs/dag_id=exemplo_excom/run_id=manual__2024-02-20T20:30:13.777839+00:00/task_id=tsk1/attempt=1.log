@@ -1,0 +1,34 @@
+[2024-02-20T20:30:15.052+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: exemplo_excom.tsk1 manual__2024-02-20T20:30:13.777839+00:00 [queued]>
+[2024-02-20T20:30:15.058+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: exemplo_excom.tsk1 manual__2024-02-20T20:30:13.777839+00:00 [queued]>
+[2024-02-20T20:30:15.058+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T20:30:15.059+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-20T20:30:15.059+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-20T20:30:15.067+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): tsk1> on 2024-02-20 20:30:13.777839+00:00
+[2024-02-20T20:30:15.070+0000] {standard_task_runner.py:55} INFO - Started process 200 to run task
+[2024-02-20T20:30:15.071+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'exemplo_excom', 'tsk1', 'manual__2024-02-20T20:30:13.777839+00:00', '--job-id', '137', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmp69tzhc_z']
+[2024-02-20T20:30:15.072+0000] {standard_task_runner.py:83} INFO - Job 137: Subtask tsk1
+[2024-02-20T20:30:15.103+0000] {task_command.py:388} INFO - Running <TaskInstance: exemplo_excom.tsk1 manual__2024-02-20T20:30:13.777839+00:00 [running]> on host 033e824766d5
+[2024-02-20T20:30:15.142+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=exemplo_excom
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-20T20:30:13.777839+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-20T20:30:13.777839+00:00
+[2024-02-20T20:30:15.142+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/xcom.py", line 15, in task_write
+    Kwarg['ti'].xcom_push(key='valorxcom1, value=10200') # xcom_push: É usado para definir o valor
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+TypeError: xcom_push() missing 1 required positional argument: 'value'
+[2024-02-20T20:30:15.146+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=exemplo_excom, task_id=tsk1, execution_date=20240220T203013, start_date=20240220T203015, end_date=20240220T203015
+[2024-02-20T20:30:15.153+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 137 for task tsk1 (xcom_push() missing 1 required positional argument: 'value'; 200)
+[2024-02-20T20:30:15.163+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-02-20T20:30:15.177+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

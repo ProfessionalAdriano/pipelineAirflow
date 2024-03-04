@@ -1,0 +1,32 @@
+[2024-02-29T19:23:29.494+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-02-29T19:23:28.325529+00:00 [queued]>
+[2024-02-29T19:23:29.500+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-02-29T19:23:28.325529+00:00 [queued]>
+[2024-02-29T19:23:29.500+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29T19:23:29.500+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-29T19:23:29.500+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-29T19:23:29.508+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): gera_dados_task> on 2024-02-29 19:23:28.325529+00:00
+[2024-02-29T19:23:29.512+0000] {standard_task_runner.py:55} INFO - Started process 138 to run task
+[2024-02-29T19:23:29.514+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'gera_dados_turbina', 'gera_dados_task', 'manual__2024-02-29T19:23:28.325529+00:00', '--job-id', '3154', '--raw', '--subdir', 'DAGS_FOLDER/gera_dados_turbina.py', '--cfg-path', '/tmp/tmpl9pyno3u']
+[2024-02-29T19:23:29.515+0000] {standard_task_runner.py:83} INFO - Job 3154: Subtask gera_dados_task
+[2024-02-29T19:23:29.548+0000] {task_command.py:388} INFO - Running <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-02-29T19:23:28.325529+00:00 [running]> on host 9b5b14995b43
+[2024-02-29T19:23:29.584+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gera_dados_turbina
+AIRFLOW_CTX_TASK_ID=gera_dados_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-29T19:23:28.325529+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-29T19:23:28.325529+00:00
+[2024-02-29T19:23:29.584+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/gera_dados_turbina.py", line 47, in gera_dados
+    with open('/home/adriano/ed/APP/data/', 'w') as fp: # data_turbine.json
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adriano/ed/APP/data/'
+[2024-02-29T19:23:29.588+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=gera_dados_turbina, task_id=gera_dados_task, execution_date=20240229T192328, start_date=20240229T192329, end_date=20240229T192329
+[2024-02-29T19:23:29.595+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 3154 for task gera_dados_task ([Errno 2] No such file or directory: '/home/adriano/ed/APP/data/'; 138)
+[2024-02-29T19:23:29.606+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-02-29T19:23:29.615+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

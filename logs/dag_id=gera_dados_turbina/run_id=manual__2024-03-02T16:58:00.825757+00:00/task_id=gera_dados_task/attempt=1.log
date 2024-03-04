@@ -1,0 +1,24 @@
+[2024-03-02T16:58:01.767+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-03-02T16:58:00.825757+00:00 [queued]>
+[2024-03-02T16:58:01.773+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-03-02T16:58:00.825757+00:00 [queued]>
+[2024-03-02T16:58:01.773+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-02T16:58:01.773+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-03-02T16:58:01.773+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-02T16:58:01.781+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): gera_dados_task> on 2024-03-02 16:58:00.825757+00:00
+[2024-03-02T16:58:01.785+0000] {standard_task_runner.py:55} INFO - Started process 137 to run task
+[2024-03-02T16:58:01.787+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'gera_dados_turbina', 'gera_dados_task', 'manual__2024-03-02T16:58:00.825757+00:00', '--job-id', '3223', '--raw', '--subdir', 'DAGS_FOLDER/pipeline.py', '--cfg-path', '/tmp/tmp1vkf98b2']
+[2024-03-02T16:58:01.788+0000] {standard_task_runner.py:83} INFO - Job 3223: Subtask gera_dados_task
+[2024-03-02T16:58:01.822+0000] {task_command.py:388} INFO - Running <TaskInstance: gera_dados_turbina.gera_dados_task manual__2024-03-02T16:58:00.825757+00:00 [running]> on host d1e40b8a8e0d
+[2024-03-02T16:58:01.863+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=adrianolima095@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gera_dados_turbina
+AIRFLOW_CTX_TASK_ID=gera_dados_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-02T16:58:00.825757+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-02T16:58:00.825757+00:00
+[2024-03-02T16:58:01.864+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-03-02T16:58:01.869+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=gera_dados_turbina, task_id=gera_dados_task, execution_date=20240302T165800, start_date=20240302T165801, end_date=20240302T165801
+[2024-03-02T16:58:01.878+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-03-02T16:58:01.896+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

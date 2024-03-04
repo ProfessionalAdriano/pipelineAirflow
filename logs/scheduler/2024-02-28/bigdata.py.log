@@ -1,0 +1,630 @@
+[2024-02-28T20:45:55.965+0000] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:45:55.965+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:45:55.966+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:55.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:45:55.970+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:55.969+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:45:55.970+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:45:55.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.024 seconds
+[2024-02-28T20:46:01.161+0000] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:01.161+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:01.161+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:01.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:01.164+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:01.164+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:01.165+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:01.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:46:07.049+0000] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:07.049+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:07.049+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:07.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:07.052+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:07.052+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:07.053+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:07.064+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:46:12.889+0000] {processor.py:153} INFO - Started process (PID=197) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:12.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:12.890+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:12.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:12.893+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:12.892+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:12.893+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:12.905+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:46:18.712+0000] {processor.py:153} INFO - Started process (PID=223) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:18.713+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:18.713+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:18.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:18.717+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:18.717+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:18.717+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:18.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.022 seconds
+[2024-02-28T20:46:24.584+0000] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:24.585+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:24.585+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:24.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:24.588+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:24.588+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:24.588+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:24.601+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:46:30.483+0000] {processor.py:153} INFO - Started process (PID=307) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:30.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:30.484+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:30.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:30.487+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:30.487+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:30.487+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:30.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:46:35.535+0000] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:35.536+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:35.536+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:35.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:35.539+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:35.539+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:35.539+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:35.552+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:46:40.593+0000] {processor.py:153} INFO - Started process (PID=391) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:40.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:40.594+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:40.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:40.597+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:40.596+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:40.597+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:40.610+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:46:45.656+0000] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:45.657+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:45.657+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:45.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:45.660+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:45.660+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:45.661+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:45.695+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.040 seconds
+[2024-02-28T20:46:50.726+0000] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:50.727+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:50.727+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:50.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:50.730+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:50.730+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:50.730+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:50.742+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:46:55.753+0000] {processor.py:153} INFO - Started process (PID=498) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:55.754+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:46:55.754+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:55.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:55.758+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:55.757+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:46:55.758+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:46:55.773+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.022 seconds
+[2024-02-28T20:47:01.691+0000] {processor.py:153} INFO - Started process (PID=555) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:01.692+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:01.692+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:01.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:01.695+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:01.694+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:01.695+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:01.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:47:06.735+0000] {processor.py:153} INFO - Started process (PID=580) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:06.736+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:06.736+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:06.739+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.738+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:06.739+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:06.751+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:47:11.786+0000] {processor.py:153} INFO - Started process (PID=637) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:11.787+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:11.787+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:11.790+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.790+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:11.790+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:11.806+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.022 seconds
+[2024-02-28T20:47:16.980+0000] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:16.981+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:16.981+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:16.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:16.984+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:16.983+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:16.984+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:16.997+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:47:22.838+0000] {processor.py:153} INFO - Started process (PID=703) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:22.839+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:22.839+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:22.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:22.842+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:22.842+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:22.843+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:22.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:47:28.683+0000] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:28.683+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:28.684+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:28.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:28.687+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:28.686+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:28.687+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:28.701+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.020 seconds
+[2024-02-28T20:47:34.569+0000] {processor.py:153} INFO - Started process (PID=787) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:34.570+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:34.570+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:34.573+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.573+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:34.574+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:34.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.020 seconds
+[2024-02-28T20:47:40.438+0000] {processor.py:153} INFO - Started process (PID=813) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:40.438+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:40.439+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:40.442+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.441+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:40.442+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:40.455+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:47:46.328+0000] {processor.py:153} INFO - Started process (PID=871) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:46.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:46.329+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:46.332+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.331+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:46.332+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:46.344+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:47:52.112+0000] {processor.py:153} INFO - Started process (PID=897) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:52.113+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:52.114+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:52.120+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.118+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:52.120+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:52.140+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.033 seconds
+[2024-02-28T20:47:58.018+0000] {processor.py:153} INFO - Started process (PID=955) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:58.019+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:47:58.019+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:58.022+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.021+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:47:58.022+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:47:58.036+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:03.831+0000] {processor.py:153} INFO - Started process (PID=981) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:03.831+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:03.831+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:03.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:03.835+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:03.834+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:03.835+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:03.847+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:09.640+0000] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:09.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:09.640+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:09.644+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.643+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:09.644+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:09.657+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:15.454+0000] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:15.455+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:15.455+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:15.458+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.457+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:15.458+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:15.471+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:21.341+0000] {processor.py:153} INFO - Started process (PID=1123) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:21.342+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:21.342+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:21.345+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.345+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:21.345+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:21.358+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:27.215+0000] {processor.py:153} INFO - Started process (PID=1149) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:27.215+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:27.215+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:27.219+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.218+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:27.219+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:27.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:48:33.103+0000] {processor.py:153} INFO - Started process (PID=1207) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:33.103+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:33.104+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:33.107+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.106+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:33.107+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:33.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:38.902+0000] {processor.py:153} INFO - Started process (PID=1233) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:38.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:38.903+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:38.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:38.906+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:38.905+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:38.906+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:38.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:44.709+0000] {processor.py:153} INFO - Started process (PID=1291) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:44.709+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:44.710+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:44.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:44.713+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:44.713+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:44.713+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:44.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:50.587+0000] {processor.py:153} INFO - Started process (PID=1317) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:50.588+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:50.588+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:50.592+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.591+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:50.592+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:50.605+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:48:56.460+0000] {processor.py:153} INFO - Started process (PID=1375) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:56.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:48:56.461+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:56.464+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.464+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:48:56.465+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:48:56.477+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.019 seconds
+[2024-02-28T20:49:02.339+0000] {processor.py:153} INFO - Started process (PID=1401) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:02.340+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:49:02.340+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:02.343+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.343+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:49:02.344+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:02.356+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.018 seconds
+[2024-02-28T20:49:08.276+0000] {processor.py:153} INFO - Started process (PID=1459) to work on /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:08.277+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bigdata.py for tasks to queue
+[2024-02-28T20:49:08.277+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:08.280+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.280+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bigdata.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bigdata.py", line 17, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/decorators.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/airflow/plugins/big_data_operator.py", line 20, in __init__
+    super().__init__(*args,**kwargs)
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[2024-02-28T20:49:08.281+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bigdata.py
+[2024-02-28T20:49:08.294+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bigdata.py took 0.020 seconds

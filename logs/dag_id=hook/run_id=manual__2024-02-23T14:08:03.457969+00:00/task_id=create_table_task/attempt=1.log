@@ -1,0 +1,25 @@
+[2024-02-23T14:08:04.381+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook.create_table_task manual__2024-02-23T14:08:03.457969+00:00 [queued]>
+[2024-02-23T14:08:04.391+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: hook.create_table_task manual__2024-02-23T14:08:03.457969+00:00 [queued]>
+[2024-02-23T14:08:04.391+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-23T14:08:04.391+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-23T14:08:04.391+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-23T14:08:04.408+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): create_table_task> on 2024-02-23 14:08:03.457969+00:00
+[2024-02-23T14:08:04.413+0000] {standard_task_runner.py:55} INFO - Started process 168 to run task
+[2024-02-23T14:08:04.416+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'hook', 'create_table_task', 'manual__2024-02-23T14:08:03.457969+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/hooks.py', '--cfg-path', '/tmp/tmpkd39mymy']
+[2024-02-23T14:08:04.416+0000] {standard_task_runner.py:83} INFO - Job 84: Subtask create_table_task
+[2024-02-23T14:08:04.487+0000] {task_command.py:388} INFO - Running <TaskInstance: hook.create_table_task manual__2024-02-23T14:08:03.457969+00:00 [running]> on host 902608fbf7c9
+[2024-02-23T14:08:04.538+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hook
+AIRFLOW_CTX_TASK_ID=create_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-23T14:08:03.457969+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-23T14:08:03.457969+00:00
+[2024-02-23T14:08:04.543+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-02-23T14:08:04.545+0000] {sql.py:375} INFO - Running statement: create table if not exists teste2(id int);, parameters: None
+[2024-02-23T14:08:04.545+0000] {python.py:177} INFO - Done. Returned value was: None
+[2024-02-23T14:08:04.552+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=hook, task_id=create_table_task, execution_date=20240223T140803, start_date=20240223T140804, end_date=20240223T140804
+[2024-02-23T14:08:04.586+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-02-23T14:08:04.605+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,27 @@
+[2024-02-19T21:37:48.020+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: terceira_dag.tsk1 manual__2024-02-19T21:37:46.725763+00:00 [queued]>
+[2024-02-19T21:37:48.026+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: terceira_dag.tsk1 manual__2024-02-19T21:37:46.725763+00:00 [queued]>
+[2024-02-19T21:37:48.026+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-19T21:37:48.026+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-19T21:37:48.026+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-19T21:37:48.035+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): tsk1> on 2024-02-19 21:37:46.725763+00:00
+[2024-02-19T21:37:48.038+0000] {standard_task_runner.py:55} INFO - Started process 147 to run task
+[2024-02-19T21:37:48.040+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'terceira_dag', 'tsk1', 'manual__2024-02-19T21:37:46.725763+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/terceiratag.py', '--cfg-path', '/tmp/tmpoedas5jn']
+[2024-02-19T21:37:48.040+0000] {standard_task_runner.py:83} INFO - Job 68: Subtask tsk1
+[2024-02-19T21:37:48.075+0000] {task_command.py:388} INFO - Running <TaskInstance: terceira_dag.tsk1 manual__2024-02-19T21:37:46.725763+00:00 [running]> on host ddc0932f09f5
+[2024-02-19T21:37:48.116+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=terceira_dag
+AIRFLOW_CTX_TASK_ID=tsk1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-19T21:37:46.725763+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-19T21:37:46.725763+00:00
+[2024-02-19T21:37:48.117+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-02-19T21:37:48.117+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 5']
+[2024-02-19T21:37:48.124+0000] {subprocess.py:86} INFO - Output:
+[2024-02-19T21:37:53.126+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-19T21:37:53.146+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=terceira_dag, task_id=tsk1, execution_date=20240219T213746, start_date=20240219T213748, end_date=20240219T213753
+[2024-02-19T21:37:53.182+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2024-02-19T21:37:53.201+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

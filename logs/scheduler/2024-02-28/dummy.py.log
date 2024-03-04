@@ -1,0 +1,347 @@
+[2024-02-28T20:45:57.005+0000] {processor.py:153} INFO - Started process (PID=65) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:45:57.005+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:45:57.006+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:45:57.017+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:45:57.095+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.095+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:dummy
+[2024-02-28T20:45:57.101+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.101+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:dummy
+[2024-02-28T20:45:57.105+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.105+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:dummy
+[2024-02-28T20:45:57.105+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:45:57.113+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.113+0000] {dag.py:2711} INFO - Creating ORM DAG for dummy
+[2024-02-28T20:45:57.121+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:45:57.121+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:45:57.131+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.129 seconds
+[2024-02-28T20:46:02.498+0000] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:02.498+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:02.498+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:02.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:02.508+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:02.516+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:02.516+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:02.530+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:02.530+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:02.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.045 seconds
+[2024-02-28T20:46:08.439+0000] {processor.py:153} INFO - Started process (PID=149) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:08.440+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:08.440+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:08.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:08.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:08.458+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:08.458+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:08.473+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:08.473+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:08.483+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.046 seconds
+[2024-02-28T20:46:14.243+0000] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:14.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:14.244+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:14.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:14.254+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:14.262+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:14.262+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:14.277+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:14.277+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:14.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.046 seconds
+[2024-02-28T20:46:20.125+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:20.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:20.128+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:20.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:20.137+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:20.146+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:20.146+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:20.161+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:20.161+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:20.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:46:25.925+0000] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:25.925+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:25.926+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:25.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:25.935+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:25.942+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:25.942+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:25.957+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:25.957+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:25.967+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.044 seconds
+[2024-02-28T20:46:31.854+0000] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:31.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:31.855+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:31.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:31.864+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:31.879+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:31.879+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:31.893+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:31.893+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:31.904+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.051 seconds
+[2024-02-28T20:46:37.990+0000] {processor.py:153} INFO - Started process (PID=375) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:37.991+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:37.991+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:37.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:38.001+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:38.016+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:38.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:38.031+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:38.031+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:38.043+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-28T20:46:44.052+0000] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:44.053+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:44.053+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:44.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:44.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:44.079+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:44.079+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:44.094+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:44.094+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:44.105+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-28T20:46:49.133+0000] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:49.133+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:49.134+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:49.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:49.143+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:49.159+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:49.159+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:49.174+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:49.174+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:49.185+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:46:54.232+0000] {processor.py:153} INFO - Started process (PID=485) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:54.233+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:46:54.233+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:54.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:54.243+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:46:54.259+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:54.259+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:46:54.274+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:46:54.274+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:46:54.285+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:47:00.213+0000] {processor.py:153} INFO - Started process (PID=543) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:00.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:00.214+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:00.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:00.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:00.237+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:00.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:00.251+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:00.251+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:00.262+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.051 seconds
+[2024-02-28T20:47:06.213+0000] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:06.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:06.214+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:06.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:06.240+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.240+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:06.256+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:06.256+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:06.268+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.057 seconds
+[2024-02-28T20:47:11.337+0000] {processor.py:153} INFO - Started process (PID=627) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:11.338+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:11.338+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:11.348+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:11.362+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.362+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:11.376+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:11.376+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:11.387+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.051 seconds
+[2024-02-28T20:47:17.295+0000] {processor.py:153} INFO - Started process (PID=655) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:17.295+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:17.296+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:17.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:17.305+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:17.320+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:17.320+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:17.334+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:17.334+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:17.345+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:47:23.166+0000] {processor.py:153} INFO - Started process (PID=713) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:23.167+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:23.167+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:23.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:23.176+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:23.191+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:23.191+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:23.206+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:23.206+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:23.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:47:29.011+0000] {processor.py:153} INFO - Started process (PID=739) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:29.012+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:29.012+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:29.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:29.021+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:29.036+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:29.036+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:29.051+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:29.051+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:29.062+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:47:34.892+0000] {processor.py:153} INFO - Started process (PID=797) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:34.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:34.893+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:34.902+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:34.917+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.917+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:34.932+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:34.932+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:34.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:47:40.797+0000] {processor.py:153} INFO - Started process (PID=823) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:40.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:40.798+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:40.812+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:40.833+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.833+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:40.856+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:40.856+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:40.874+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.080 seconds
+[2024-02-28T20:47:46.641+0000] {processor.py:153} INFO - Started process (PID=881) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:46.641+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:46.642+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:46.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:46.665+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.665+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:46.680+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:46.680+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:46.690+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.051 seconds
+[2024-02-28T20:47:52.462+0000] {processor.py:153} INFO - Started process (PID=907) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:52.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:52.463+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:52.473+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:52.487+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.487+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:52.502+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:52.502+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:52.513+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:47:58.346+0000] {processor.py:153} INFO - Started process (PID=965) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:58.347+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:47:58.347+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:58.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:47:58.373+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.373+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:47:58.388+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:47:58.388+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:47:58.399+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-28T20:48:04.169+0000] {processor.py:153} INFO - Started process (PID=991) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:04.169+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:04.170+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:04.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:04.179+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:04.194+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:04.194+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:04.209+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:04.209+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:04.221+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:48:09.963+0000] {processor.py:153} INFO - Started process (PID=1049) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:09.964+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:09.964+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:09.973+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:09.988+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:09.988+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:10.004+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:10.003+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:10.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:48:15.788+0000] {processor.py:153} INFO - Started process (PID=1075) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:15.788+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:15.789+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:15.799+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:15.815+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.815+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:15.830+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:15.830+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:15.840+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-28T20:48:21.656+0000] {processor.py:153} INFO - Started process (PID=1133) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:21.657+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:21.657+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:21.666+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:21.681+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.680+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:21.696+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:21.695+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:21.706+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:48:27.539+0000] {processor.py:153} INFO - Started process (PID=1159) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:27.540+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:27.540+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:27.549+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:27.564+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.564+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:27.579+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:27.579+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:27.589+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:48:33.419+0000] {processor.py:153} INFO - Started process (PID=1217) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:33.420+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:33.420+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:33.429+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:33.444+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.444+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:33.459+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:33.458+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:33.469+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:48:39.234+0000] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:39.234+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:39.235+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:39.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:39.244+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:39.259+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:39.258+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:39.273+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:39.273+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:39.283+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:48:45.028+0000] {processor.py:153} INFO - Started process (PID=1301) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:45.029+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:45.029+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:45.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:45.039+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:45.053+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:45.053+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:45.068+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:45.068+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:45.078+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:48:50.926+0000] {processor.py:153} INFO - Started process (PID=1327) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:50.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:50.927+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:50.937+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:50.952+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.952+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:50.967+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:50.967+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:50.978+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:48:56.789+0000] {processor.py:153} INFO - Started process (PID=1385) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:56.790+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:48:56.790+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:56.801+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:48:56.817+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.817+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:48:56.832+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:48:56.832+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:48:56.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.055 seconds
+[2024-02-28T20:49:02.657+0000] {processor.py:153} INFO - Started process (PID=1411) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:02.657+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:02.658+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:02.667+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:02.682+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.682+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:02.697+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:02.697+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:02.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:49:08.603+0000] {processor.py:153} INFO - Started process (PID=1469) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:08.603+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:08.604+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:08.614+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:08.631+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.630+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:08.646+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:08.645+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:08.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.056 seconds
+[2024-02-28T20:49:14.480+0000] {processor.py:153} INFO - Started process (PID=1494) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:14.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:14.481+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:14.481+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:14.490+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:14.505+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:14.505+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:14.520+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:14.520+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:14.530+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:49:20.531+0000] {processor.py:153} INFO - Started process (PID=1551) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:20.531+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:20.532+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:20.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:20.542+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:20.557+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:20.557+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:20.573+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:20.572+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:20.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.054 seconds
+[2024-02-28T20:49:26.406+0000] {processor.py:153} INFO - Started process (PID=1576) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:26.407+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:26.407+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:26.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:26.417+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:26.432+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:26.432+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:26.447+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:26.447+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:26.457+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.053 seconds
+[2024-02-28T20:49:32.370+0000] {processor.py:153} INFO - Started process (PID=1632) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:32.371+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:32.371+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:32.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:32.382+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:32.399+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:32.399+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:32.415+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:32.415+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:32.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.058 seconds
+[2024-02-28T20:49:37.445+0000] {processor.py:153} INFO - Started process (PID=1656) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:37.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:49:37.446+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:37.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:37.459+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:49:37.481+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:37.481+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:49:37.500+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:49:37.499+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:49:37.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.073 seconds
+[2024-02-28T20:50:21.824+0000] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:21.826+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:21.827+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:21.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:21.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:21.922+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:21.922+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:21.948+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:21.948+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:21.974+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.154 seconds
+[2024-02-28T20:50:28.555+0000] {processor.py:153} INFO - Started process (PID=119) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:28.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:28.556+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:28.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:28.565+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:28.574+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:28.574+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:28.593+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:28.593+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:28.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.052 seconds
+[2024-02-28T20:50:34.455+0000] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:34.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:34.461+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:34.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:34.502+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:34.530+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:34.530+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:34.553+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:34.552+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:34.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.114 seconds
+[2024-02-28T20:50:40.368+0000] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:40.368+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:40.369+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:40.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:40.379+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:40.386+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:40.386+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:40.401+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:40.400+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:40.411+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.045 seconds
+[2024-02-28T20:50:46.225+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:46.226+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:46.226+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:46.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:46.237+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:46.244+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:46.244+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:46.260+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:46.259+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:46.272+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.048 seconds
+[2024-02-28T20:50:52.151+0000] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:52.152+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:52.152+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:52.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:52.161+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:52.174+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:52.174+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:52.189+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:52.189+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:52.199+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.050 seconds
+[2024-02-28T20:50:58.055+0000] {processor.py:153} INFO - Started process (PID=335) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:58.060+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:50:58.062+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:58.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:58.080+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:50:58.107+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:58.107+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:50:58.131+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:50:58.131+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:50:58.144+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.093 seconds
+[2024-02-28T20:51:03.970+0000] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:03.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:51:03.971+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:03.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:03.980+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:03.993+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:03.993+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:51:04.007+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:04.007+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:51:04.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.050 seconds
+[2024-02-28T20:51:09.864+0000] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:09.865+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:51:09.865+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:09.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:09.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:09.894+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:09.894+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:51:09.912+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:09.912+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:51:09.925+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.064 seconds
+[2024-02-28T20:51:15.715+0000] {processor.py:153} INFO - Started process (PID=439) to work on /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:15.715+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dummy.py for tasks to queue
+[2024-02-28T20:51:15.716+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:15.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:15.725+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dummy']) retrieved from /opt/airflow/dags/dummy.py
+[2024-02-28T20:51:15.739+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:15.739+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-02-28T20:51:15.753+0000] {logging_mixin.py:137} INFO - [2024-02-28T20:51:15.753+0000] {dag.py:3441} INFO - Setting next_dagrun for dummy to None, run_after=None
+[2024-02-28T20:51:15.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dummy.py took 0.051 seconds

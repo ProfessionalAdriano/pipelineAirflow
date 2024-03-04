@@ -1,0 +1,40 @@
+[2024-02-22T15:24:35.295+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: pythonoperator.task1 manual__2024-02-22T15:24:33.388553+00:00 [queued]>
+[2024-02-22T15:24:35.301+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: pythonoperator.task1 manual__2024-02-22T15:24:33.388553+00:00 [queued]>
+[2024-02-22T15:24:35.301+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-22T15:24:35.301+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-02-22T15:24:35.301+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-02-22T15:24:35.310+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): task1> on 2024-02-22 15:24:33.388553+00:00
+[2024-02-22T15:24:35.314+0000] {standard_task_runner.py:55} INFO - Started process 169 to run task
+[2024-02-22T15:24:35.316+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'pythonoperator', 'task1', 'manual__2024-02-22T15:24:33.388553+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/pythonoperator.py', '--cfg-path', '/tmp/tmpxvq6qamt']
+[2024-02-22T15:24:35.317+0000] {standard_task_runner.py:83} INFO - Job 6: Subtask task1
+[2024-02-22T15:24:35.355+0000] {task_command.py:388} INFO - Running <TaskInstance: pythonoperator.task1 manual__2024-02-22T15:24:33.388553+00:00 [running]> on host 0c5f49cd02c5
+[2024-02-22T15:24:35.398+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=pythonoperator
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-22T15:24:33.388553+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-02-22T15:24:33.388553+00:00
+[2024-02-22T15:24:35.409+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pythonoperator.py", line 30, in data_cleaner
+    dataset.to_csv("/opt/airflow/data/Churn_clean.csv", sep=";", index=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/Churn_clean.csv'
+[2024-02-22T15:24:35.415+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=pythonoperator, task_id=task1, execution_date=20240222T152433, start_date=20240222T152435, end_date=20240222T152435
+[2024-02-22T15:24:35.422+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 6 for task task1 ([Errno 13] Permission denied: '/opt/airflow/data/Churn_clean.csv'; 169)
+[2024-02-22T15:24:35.448+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-02-22T15:24:35.460+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
